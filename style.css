@@ -1,0 +1,191 @@
+body {
+  padding: 20px;
+  max-width: 1140px;
+  margin: auto;
+  background-color: #f2f2f2;
+}
+.container {
+  width: 100%;
+  margin: 1%;
+  float: left;
+}
+button {
+  background-color: rgb(116, 218, 116);
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  /* margin-right: 5px;
+  margin-left: 5px; */
+  margin: 5px;
+  line-height: 1.75;
+  padding: 5px;
+}
+button:hover,
+button:active.button:visited {
+  background-color: rgb(24, 114, 24);
+}
+
+.box {
+  margin-top: 20px;
+  background-color: white;
+  width: 15%;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 20px;
+  margin-left: 15px;
+  padding-right: 20px;
+}
+
+.box_div {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+.list-item {
+  float: left;
+}
+.grid-container {
+  width: 80%;
+  display: grid;
+  float: left;
+  grid-template-columns: auto auto auto auto;
+  /* padding: 10px; */
+  webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.grid-item {
+  background: white;
+  padding-top: 20px;
+  /* width: 25%; */
+  background-color: rgba(255, 255, 255, 0.8);
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  /* padding: 20px; */
+  font-size: 15px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 0%;
+  flex: 1 0 0%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+.grid_image {
+  width: 80%;
+  margin: auto;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+.grid_item_body {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  /* padding: 1.25rem; */
+}
+.grid_item_text {
+  list-style: none;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 1024px) and (max-width: 1140px) {
+  .grid-container {
+    margin: auto;
+    width: 80%;
+    display: grid;
+    float: left;
+    grid-template-columns: auto auto auto auto;
+    /* padding: 10px; */
+    webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+  .grid-container {
+    margin: auto;
+    width: 80%;
+    display: grid;
+    float: left;
+    grid-template-columns: auto auto;
+    /* padding: 10px; */
+    webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .box {
+    width: 15%;
+    float: left;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    background-color: lightblue;
+  }
+  .grid-container {
+    width: 100%;
+    display: grid;
+    float: left;
+    margin: auto;
+    grid-template-columns: auto;
+    /* padding: 10px; */
+    webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    /* margin-right: -15px;
+    margin-left: -15px; */
+  }
+  .grid_image {
+    width: 50%;
+    margin: auto;
+  }
+  .box {
+    width: 35%;
+    float: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    /* margin-right: -15px; */
+    /* margin-left: -15px; */
+    padding-right: 20px;
+    margin: auto;
+  }
+  .grid-container {
+    width: 50%;
+    display: grid;
+    float: none;
+    margin: auto;
+    grid-template-columns: auto;
+  }
+}

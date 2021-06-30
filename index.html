@@ -1,0 +1,311 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>JSON</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+  </head>
+
+  <body>
+    <section>
+      <h2>SpaceX Launch Programs</h2>
+      <!-- container for years  -->
+      <div id="showData" class="container">
+        <div class="box">          
+          <div class="box_div">
+            <h2>Filters</h2>
+            <span>Launch Year</span>
+            <hr> 
+            <!-- buttons -->
+            <button id="get-data1">2006</button>
+            <button id="get-data2">2007</button>
+            <button id="get-data3">2008</button>
+            <button id="get-data4">2009</button>
+            <button id="get-data5">2010</button>
+            <button id="get-data6">2011</button>
+            <button id="get-data7">2012</button>
+            <button id="get-data8">2013</button>
+            <button id="get-data9">2014</button>
+            <button id="get-data10">2015</button>
+            <button id="get-data11">2016</button>
+            <button id="get-data12">2017</button>
+            <button id="get-data13">2018</button>
+            <button id="get-data14">2019</button>
+            <button id="get-data15">2020</button>
+            <div>
+              <!-- successfull_launch check -->
+              <span>successfull launch</span>
+              <hr>
+              <button id="get-data16">True</button>
+              <button id="get-data17">False</button></div>
+              <div>
+                 <!-- successfull_land check -->
+                <span>successfull landing</span>
+                <hr>
+                <button id="get-data18">True</button>
+            <button id="get-data19">False</button>
+              </div>
+          </div>
+        </div>
+        <br />
+<!-- container for grids -->
+        <div id="showData" class="grid-container">
+          <div id="grid-item1" class="grid-item">
+            <img
+              class="grid_image"
+              src="images/Falcon@1X.png"
+              alt="Card image cap"
+            />
+            <div class="grid_item_body">
+              <h5 class="grid_item-title">
+                <div class="box_div">flight_number</div>
+              </h5>
+              <ul class="grid_item_text">
+                <li>
+                  <span class="list-item">Mission ID</span>
+                  <div>mission_name</div>
+                </li>
+                <li>
+                  <span class="list-item">Launch_year</span>
+                  <div>Launch_year</div>
+                </li>
+                <li>
+                  <span class="list-item">successfull_launch</span>
+                  <div>successfull_launch</div>
+                </li>
+                <li>
+                  <span class="list-item">successfull_landing</span>
+                  <div>successfull_land</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="grid-item2" class="grid-item">
+            <img
+              class="grid_image"
+              src="images/demo@1X.png"
+              alt="Card image cap"
+            />
+            <div class="grid_item_body">
+              <h5 class="grid_item-title">
+                <div class="box_div">flight_number</div>
+              </h5>
+              <ul class="grid_item_text">
+                <li>
+                  <span class="list-item">Mission ID</span>
+                  <div>mission_name</div>
+                </li>
+                <li>
+                  <span class="list-item">Launch_year</span>
+                  <div>Launch_year</div>
+                </li>
+                <li>
+                  <span class="list-item">successfull_launch</span>
+                  <div>successfull_launch</div>
+                </li>
+                <li>
+                  <span class="list-item">successfull_landing</span>
+                  <div>successfull_land</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="grid-item3" class="grid-item">
+            <img
+              class="grid_image"
+              src="images/Falcon2@1X.png"
+              alt="Card image cap"
+            />
+            <div class="grid_item_body">
+              <h5 class="grid_item-title">
+                <div class="box_div">flight_number</div>
+              </h5>
+              <ul class="grid_item_text">
+                <li>
+                  <span class="list-item">Mission ID</span>
+                  <div>mission_name</div>
+                </li>
+                <li>
+                  <span class="list-item">Launch_year</span>
+                  <div>Launch_year</div>
+                </li>
+                <li>
+                  <span class="list-item">successfull_launch</span>
+                  <div>successfull_launch</div>
+                </li>
+                <li>
+                  <span class="list-item">successfull_landing</span>
+                  <div>successfull_land</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="grid-item4" class="grid-item">
+            <img
+              class="grid_image"
+              src="images/Falcon4@1X.png"
+              alt="Card image cap"
+            />
+            <div class="grid_item_body">
+              <h5 class="grid_item-title">
+                <div class="box_div">flight_number</div>
+              </h5>
+              <ul class="grid_item_text">
+                <li>
+                  <span class="list-item">Mission ID</span>
+                  <div>mission_name</div>
+                </li>
+                <li>
+                  <span class="list-item">Launch_year</span>
+                  <div>Launch_year</div>
+                </li>
+                <li>
+                  <span class="list-item">successfull_launch</span>
+                  <div>successfull_launch</div>
+                </li>
+                <li>
+                  <span class="list-item">successfull_landing</span>
+                  <div>successfull_land</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="grid-item5" class="grid-item">
+            <img
+              class="grid_image"
+              src="images/Falcon5@1X.png"
+              alt="Card image cap"
+            />
+            <div class="grid_item_body">
+              <h5 class="grid_item-title">
+                <div class="box_div">flight_number</div>
+              </h5>
+              <ul class="grid_item_text">
+                <li>
+                  <span class="list-item">Mission ID</span>
+                  <div>mission_name</div>
+                </li>
+                <li>
+                  <span class="list-item">Launch_year</span>
+                  <div>Launch_year</div>
+                </li>
+                <li>
+                  <span class="list-item">successfull_launch</span>
+                  <div>successfull_launch</div>
+                </li>
+                <li>
+                  <span class="list-item">successfull_landing</span>
+                  <div>successfull_land</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="grid-item6" class="grid-item">
+            <img
+              class="grid_image"
+              src="images/Falcon6@1X.png"
+              alt="Card image cap"
+            />
+            <div class="grid_item_body">
+              <h5 class="grid_item-title">
+                <div class="box_div">flight_number</div>
+              </h5>
+              <ul class="grid_item_text">
+                <li>
+                  <span class="list-item">Mission ID</span>
+                  <div>mission_name</div>
+                </li>
+                <li>
+                  <span class="list-item">Launch_year</span>
+                  <div>Launch_year</div>
+                </li>
+                <li>
+                  <span class="list-item">successfull_launch</span>
+                  <div>successfull_launch</div>
+                </li>
+                <li>
+                  <span class="list-item">successfull_landing</span>
+                  <div>successfull_land</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="grid-item7" class="grid-item">
+            <img
+              class="grid_image"
+              src="images/Falcon7@1X.png"
+              alt="Card image cap"
+            />
+            <div class="grid_item_body">
+              <h5 class="grid_item-title">
+                <div class="box_div">flight_number</div>
+              </h5>
+              <ul class="grid_item_text">
+                <li>
+                  <span class="list-item">Mission ID</span>
+                  <div>mission_name</div>
+                </li>
+                <li>
+                  <span class="list-item">Launch_year</span>
+                  <div>Launch_year</div>
+                </li>
+                <li>
+                  <span class="list-item">successfull_launch</span>
+                  <div>successfull_launch</div>
+                </li>
+                <li>
+                  <span class="list-item">successfull_landing</span>
+                  <div>successfull_land</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="grid-item8" class="grid-item">
+            <img
+              class="grid_image"
+              src="images/Falcon8@1X.png"
+              alt="Card image cap"
+            />
+            <div class="grid_item_body">
+              <h5 class="grid_item-title">
+                <div class="box_div">flight_number</div>
+              </h5>
+              <ul class="grid_item_text">
+                <li>
+                  <span class="list-item">Mission ID</span>
+                  <div>mission_name</div>
+                </li>
+                <li>
+                  <span class="list-item">Launch_year</span>
+                  <div>Launch_year</div>
+                </li>
+                <li>
+                  <span class="list-item">successfull_launch</span>
+                  <div>successfull_launch</div>
+                </li>
+                <li>
+                  <span class="list-item">successfull_landing</span>
+                  <div>successfull_land</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+  </body>
+
+  <!-- External Scripts -->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
+
+  <script src="index.js"></script>
+</html>
